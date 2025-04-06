@@ -2,7 +2,7 @@ import axios from 'axios';
 import { AuthResponse, LoginRequest, RegisterRequest } from '../types/user';
 import { PracticeRecord, UpdatePracticeMinutesRequest, SendVerificationRequest, VerifyPracticeRequest } from '../types/practice-record';
 
-const API_URL = '/api';
+const API_URL = 'http://localhost:3001/api';
 
 // Create axios instance
 const api = axios.create({
